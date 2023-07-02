@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+  
+  }
+  
+  header {
+   position: fixed;
+   width: 100%;
+  }
+  
+  .logo {
+    width: 1500px;
+    height: 700px;
+    margin: 0px;
+    padding: 0%;
+  }
+  
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    background-color:#111;
+
+  }
+  
+  .nav-links li {
+    margin: 10px;
+  }
+  .nav-links li a:hover{
+    background-color: red;
+    text-align: center;
+    border-radius: 10%;
+  padding: 3px;
+  transition: 0.5s;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .signin-btn {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  
+  }
+  
+  .hero {
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .action-buttons button {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .featured-shows {
+    display: flex;
+  }
+  
+  .featured-shows .a {
+  padding-top: 60px;
+  padding-left: 150px;
+  }
+  .featured-shows .a h1{
+    font-size: 50px;
+  }
+  .shows{
+    display: flex;
+  }
+  .shows h1{
+    padding-top: 30px;
+    font-size: 50px;
+  }
+  .shows h3{
+    padding-top: 60px;
+    font-size: 25px;
+  }
+  .faq{
+    color: aliceblue;
+background-color: black;
+font-size: 30px;
+line-height: 60px;
+}
+.first:hover{
+    background-color: slategray;
+    transition: 0.6s;
+}
+.second:hover{
+    background-color: slategray;
+    transition: 0.6s;
+}
+.third:hover{
+    background-color: slategray;
+    transition: 0.6s;
+}
+.fourth:hover{
+    background-color: slategray;
+    transition: 0.6s;
+}
+.footer-links li {
+  list-style-type:none;
+  margin: 30px;
+  text-align: left;
+  margin-left: 30px;
+}
+.footer-links li a{
+  text-decoration: none;
+  float: left;
+  color: #fff;
+  margin: 30px;
+  margin-top: 10px;
+}
+.social-links {
+text-align: right;
+margin: 10px;
+
+}
+.social-links a{
+  margin: 20px;
+  font-size: 25px;
+}
+
+          
+          footer {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+  }
+  
